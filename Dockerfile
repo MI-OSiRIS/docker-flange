@@ -35,6 +35,7 @@ RUN bash ./build.sh
 
 ADD flanged_conf.ini /etc/flanged/flanged_conf.ini
 ADD flange.conf /etc/supervisor/conf.d/
+ADD fladmin_conf.ini /etc/flanged/fladmin_conf.ini
 
 ENV DEBUG DEBUG
 ADD run.sh .
