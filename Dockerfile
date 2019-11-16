@@ -26,7 +26,7 @@ WORKDIR $HOME
 RUN git config --global user.email "osiris@osiris-peri"
 RUN git config --global user.name "OSIRIS"
 
-RUN git clone -b v1.1 https://github.com/periscope-ps/unisrt
+RUN git clone -b develop https://github.com/periscope-ps/unisrt
 RUN git clone -b master https://github.com/periscope-ps/lace
 RUN git clone -b develop https://github.com/periscope-ps/Flange
 
